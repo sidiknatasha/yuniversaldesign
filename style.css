@@ -1,0 +1,229 @@
+	body{
+	background-color: #FDFFFC;
+	}
+
+	.illustration{
+	display: inline;
+	width: 90%;
+	}
+
+	.logo{
+	display: inline;
+	max-height:60px;
+	margin-top: 5px;
+	margin-left: 10px;
+	}
+
+	.black{
+  	color: black;
+	}
+
+	.items{
+	padding: 10px;
+	cursor: pointer;
+	margin: 10px 0px 0px 20px;
+	}
+
+	.black:hover{
+	color: #FDA42C;
+	}
+
+	.catchline{
+	margin-top: 10%
+	}
+
+	.catchline2{
+	margin: 5% 5%; 
+	}
+
+	.parta{
+	padding-bottom: 3%;
+	}
+
+	@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+	.main{
+	font-family: 'Inter', sans-serif;
+	font-weight:700;
+	}
+
+	.bold{
+	font-family:'Roboto Slab', serif;
+	font-weight: 600;
+	font-size: 3em;
+	}
+
+	.bold2{
+	font-family:'Roboto Slab', serif;
+	font-weight: 600
+	font-size: 1.5em;
+	}
+
+	.regular{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 1.15em;
+	}
+
+	.medium{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	}
+
+	.parent{
+	display: absolute;
+	z-index: 1
+	}
+
+	.animated{
+	display: inline;
+	position:relative;
+	z-index: -1;
+	}
+
+	lottie-player{
+	margin-top: -7em;
+	}
+
+	.buttona{
+	display: inline;
+	padding: 8px;
+	background-color:#FDA42C;
+	border: 1px solid #FDA42C;
+	border-radius: 8px;
+	}
+
+	.buttona:hover{
+	background-color: lightgrey;
+	border: 1px solid lightgrey;
+	}
+
+	.buttona a{
+	font-family: 'Inter', sans-serif;
+	color: white;
+	font-size : 2em;
+	text-decoration: none;
+	}
+
+	.buttona a:hover{
+	font-family: 'Inter', sans-serif;
+	color: white;
+	font-size : 2em;
+	text-decoration: none;
+	}
+
+	.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  	padding: 14px 80px 18px 36px;
+  	cursor: pointer;
+}
+
+.card:hover{
+  	transform: scale(1.05);
+  	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  	position: absolute;
+  	top: 20px;
+  	right: 15px;
+  	max-height: 120px;
+}
+
+.card-1{
+  	background-image: url("images/what.png");
+  	background-repeat: no-repeat;
+  	background-position: right;
+  	background-size: 80px;
+}
+
+.card-2{
+   	background-image: url("images/where.png");
+   	background-repeat: no-repeat;
+   	background-position: right;
+   	background-size: 80px;
+}
+
+.card-3{
+   	background-image: url("images/who.png");
+   	background-repeat: no-repeat;
+   	background-position: right;
+   	background-size: 80px;
+}
+
+.card-4{
+	background-image: url("images/why.png");
+   	background-repeat: no-repeat;
+   	background-position: right;
+   	background-size: 80px;
+}
+
+.card-5{
+	background-image: url("images/how.png");
+   	background-repeat: no-repeat;
+   	background-position: right;
+   	background-size: 80px;
+}
+
+.card-6{
+	background-image: url("images/when.png");
+   	background-repeat: no-repeat;
+   	background-position: right;
+   	background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+  .illustration{
+  	display: none
+  }
+  .illustration2{
+  	display: none;
+  }
+} 
+
+.illustration2{
+	width: 90%;
+	position: absolute;
+	z-index: 0;
+
+	}
+
+.text{
+	z-index: 100;
+	position: relative;
+  	font-weight: bold;
+  	margin-left: 23%;
+  	padding-top: 13%;
+  	}
+
+.medium2{
+	display: inline;
+	color: #264653;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 0.70em;
+	}
+
+.bold3{
+	font-family:'Roboto Slab', serif;
+	font-weight: 600;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	}
+
+i{
+	padding-bottom: 20px;
+}
